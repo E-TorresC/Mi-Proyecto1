@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PitbullPhotoApp</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>PitbullPhotoApp</h1>
+            <h2>Pitbull Photos</h2>
+
+            <!--para poner un hipervinculo a una palabra guiate del siguiente ejemplo
+     <p> <a href="https://www.istockphoto.com/es/fotos/pit-bull-terrier"> Click aqui </a>para ver mas fotos de Pitbulls</p>-->
+            <p><a href="https://www.istockphoto.com/es/fotos/pit-bull-terrier" target="_blank"> Click aqui </a> para ver mas fotos de Pitbulls</p>
+            <img src="https://media.istockphoto.com/photos/big-dog-picture-id513392620?s=612x612" alt="foto Pitbull">
+            <!-- para poner un hiperviculo a una imagen guiate del siguiente ejemplo se pone el (a) element
+    <a href="https://www.istockphoto.com/es/fotos/pit-bull-terrier"> <img src="https://media.istockphoto.com/photos/big-dog-picture-id513392620?s=612x612" alt="foto Pitbull"></a>-->
+        </section>
+        <section>
+            <h2>Cosas de perros</h2>
+            <h3>Cosas que aman los pitbulls:</h3>
+            <ul>
+                <li>Jugar con la pelota</li>
+                <li>Perseguir gatos</li>
+                <li>Arrastar la llanta</li>
+            </ul>
+            <figure>
+                <img src="https://i.ytimg.com/vi/X0sjvyTSjUU/mqdefault.jpg" alt="Pitbull arrastrando una llanta">
+                <figcaption>Pitbulls <em>aman</em> arrastar la llanta</figcaption>
+            </figure>
+            <h3>Cosas que odian los pitbulls:</h3>
+            <ol>
+                <li>Bañarse</li>
+                <li>Comer solo croqueta</li>
+                <li>Pelear con otros perros</li>
+            </ol>
+            <figure>
+                <img src="imagenes\pitbull.jpg" alt="pitbull bañandose">
+                <figcaption>Pitbull <strong>odian</strong> bañarse</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Pitbull formulario</h2>
+
+            <!--SECCION DONDE VA EL RECTANGULO-->
+            <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+            <!--ACCION DE TOMAR EL URL-->
+            <input type="text" placeholder="Url foto de Pitbull" required>
+
+            <!-- SECCION DONDE VA LAS OPCIONES-->
+            <fieldset>
+                <!--ES UN CUADRO QUE RECUBRE TODO LO QUE SE INGRESE A SU INTERIOR-->
+                <legend>Es tu pitbull callejero o de casa?</legend>
+                <label><input type="radio" name="callejero-casa" id="callejero" value="callejero" checked>callejero</label>
+                <label><input type="radio" name="callejero-casa" id="casa" value="casa">casa</label>
+            </fieldset>
+            <fieldset>
+                <legend>Cual es la personalidad de tu Pitbull?</legend>
+                <input type="radio" name="cariñoso-chuncho-vago" id="cariñoso" value="cariñoso" checked><label
+                    for="cariñoso">cariñoso</label>
+                <input type="radio" name="cariñoso-chuncho-vago" id="chunco" value="chuncho"><label for="chuncho">chuncho</label>
+                <input type="radio" name="cariñoso-chuncho-vago" id="vago" value="vago"><label for="vago">vago</label>
+            </fieldset>
+
+            <!-- DONDE VA EL BOTON ENVIAR-->
+            <button type="submit">Submit</button>
+        </section>
+    </main>
+    <footer>
+        <p>No copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+</body>
+</html>

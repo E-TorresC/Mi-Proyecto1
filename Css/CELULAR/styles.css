@@ -1,0 +1,31 @@
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+body {
+    background-image: url(imagenes/tech.jpg);
+    /*background-color: lightgray;*/
+}
+
+.menu {
+    width: 80%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marca {
+    text-align: left;
+    width: 50%;
+}
+
+.precio {
+    text-align: right;
+    width: 50%;
+}
+
+.item p {
+    display: inline-block;
+}
